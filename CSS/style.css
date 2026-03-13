@@ -14,7 +14,7 @@ ul#lista li {
   align-items: center;
 }
 
-ul#lista button {
+ul#lista button { /* do botão de excluir */
   background: red;
   border: none; /* sem borda nenhuma */
   color: white;
