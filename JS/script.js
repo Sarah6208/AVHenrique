@@ -16,7 +16,7 @@ function adicionar() {
 
   if (editando !== null) {
     // se estiver editando, troca o texto
-    lista.children[editando].querySelector("span").textContent = texto; // children pega filho; textContent troca texto
+    lista.children[editando].querySelector("span").textContent = texto; // children pega filho, textContent troca texto
     editando = null; // sai da editação
   } else {
     // cria novo item
