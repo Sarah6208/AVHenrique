@@ -22,7 +22,7 @@ function adicionar() {
     // cria novo item
     const li = document.createElement("li"); // li cria item de lista
 
-    const span = document.createElement("span"); // span cria elemento de texto
+    const span = document.createElement("span"); // span cria um elemento de texto
     span.textContent = texto;
     span.style.cursor = "pointer";
 
